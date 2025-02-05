@@ -16,6 +16,21 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "СГУ Сочи",
   description: "Прототип системы 'Электронный журнал' (на примере ФГБОУ ВО 'Сочинский государственный университет')",
+  openGraph: {
+    title: "СГУ Сочи",
+    description: "Прототип системы 'Электронный журнал' (на примере ФГБОУ ВО 'Сочинский государственный университет')",
+    url: "https://v3r3tnxv.github.io/",
+    siteName: "СГУ Сочи",
+    images: [
+      {
+        url: "https://v3r3tnxv.github.io/preview.png",
+        width: 262,
+        height: 305,
+        alt: "Логотип СГУ",
+      },
+    ],
+    type: "website",
+  },
 };
 
 export default function RootLayout({
