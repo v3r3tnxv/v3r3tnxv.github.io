@@ -1,8 +1,6 @@
 // src/app/page.tsx
 
 import { Profile } from '@/widgets/Profile/Profile';
-import { User } from '@/entities/User/User';
-import styles from './page.module.scss';
 
 // Асинхронный компонент
 const Home = async () => {
